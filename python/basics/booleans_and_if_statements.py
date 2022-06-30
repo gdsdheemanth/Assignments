@@ -19,3 +19,5 @@ weight = 79.65
 
 if weight < 80 :
     print("you are underweight :)")
+else:
+    print("over weight")

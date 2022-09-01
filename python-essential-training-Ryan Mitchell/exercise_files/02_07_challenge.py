@@ -57,7 +57,7 @@ class TerminalScribe:
         self.canvas.print()
         time.sleep(self.framerate)
 
-canvas = Canvas(30, 30)
+canvas = Canvas(50, 50)
 scribe = TerminalScribe(canvas)
 
 scribe.right()

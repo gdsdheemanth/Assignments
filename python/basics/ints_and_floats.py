@@ -16,3 +16,5 @@ print(weight / 2)
 age = 25
 
 bitcoin = 0.1
+
+print(divmod(35,6))

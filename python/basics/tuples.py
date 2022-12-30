@@ -47,3 +47,14 @@ print(a == b)
 print(a <= b)
 print(a < b)
 print(a > b)
+
+# iterating over tuples
+words = ('fresh', 'out', 'of', 'ideas')
+for word in words:
+    print(word)
+
+#modifying a tuple
+#tuples are immutable, so you can't change an existing tuple
+t1 = ('fee', 'fie', 'foe')
+t2 = ('flop',)
+print(t1 + t2)
